@@ -487,20 +487,20 @@ function addCommasToNumber(number) {
 function init() {
   switch (global.currentPage) {
     case '/':
-    case ' /flixx-app-theme/index.html':
+    case '/flixx-app-theme/index.html':
       displaySlider();
       displayPopularMovies();
       break;
     case '/flixx-app-theme/shows.html':
       displayPopularShows();
       break;
-    case ' /flixx-app-theme/movie-details.html':
+    case '/flixx-app-theme/movie-details.html':
       displayMovieDetails();
       break;
-    case ' /flixx-app-theme/tv-details.html':
+    case '/flixx-app-theme/tv-details.html':
       displayShowDetails();
       break;
-    case ' /flixx-app-theme/search.html':
+    case '/flixx-app-theme/search.html':
       search();
       break;
   }
